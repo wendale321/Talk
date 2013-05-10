@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nothing"></string>
+    <string name="main_name">crazy chatting</string>
+    <string name="set_name">设置</string>
+    <string name="teach_name">教教我</string>
+    <string name="begin">开始识别</string>
+    <string name="setting">设置</string>
+    <string name="teachme">教教我</string>
+    <string name="ok">确定</string>
+    <string name="cancle">取消</string>
+    <string name="what">你教什么呢</string>
+    <string name="answer">回答什么呢</string>
+    <string name="pause">暂停识别</string>
+    <string name="choose">选择特色语音</string>
+    <string name="speed">设置语速</string>
+    <string name="tts_manner">选择语音合成方式</string>
+    <string name="tts_online">在线合成</string>
+    <string name="tts_offline">离线合成</string>
+    <string name="appid">appid="appid=5038f104"</string>
+    <string name="spinner_set">选择发音人</string>
+    <string name="spinner_teach">选择当前用户</string>
+    <string-array name="spinnerItem">
+        <item>中英文（普通话）</item>
+        <item>中英文（粤语）</item>
+        <item>汉语（河南话）</item>
+        <item>汉语（陕西话）</item>
+        <item>汉语（蜡笔小新）</item>
+    </string-array>
+    
+</resources>

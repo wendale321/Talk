@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/spinner_set" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="@string/speed" />
+
+    <SeekBar
+        android:id="@+id/seekBar_speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tts_manner" />
+    <RadioGroup
+        android:id="@+id/tts_manner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <RadioButton
+            android:id="@+id/tts_online"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tts_online" />
+   		<RadioButton
+           android:id="@+id/tts_offline"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="@string/tts_offline" />
+    </RadioGroup>
+
+</LinearLayout>
